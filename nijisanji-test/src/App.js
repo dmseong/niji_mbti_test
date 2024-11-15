@@ -16,9 +16,9 @@ function App() {
   });
 
   return (
-    <BrowserRouter basename="">
+    <BrowserRouter basename="/">
       <Routes>
-        <Route exact path="/" element={<StartPage/>}/>
+        <Route path="/" element={<StartPage/>}/>
         <Route path="/test/:name" element={<TestPage />} />
         <Route path="/result/:name" element={<ResultPage />} />
       </Routes>
