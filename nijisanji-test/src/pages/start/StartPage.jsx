@@ -13,7 +13,7 @@ function StartPage() {
     return (
         <div className="frame">
             <div className="rectangle"></div>
-            <img className="logo" src='/img/Nijisanji_Logo.webp' />
+            <img className="logo" src={process.env.PUBLIC_URL +'/img/Nijisanji_Logo.webp'} />
             <h1 className="title">나에게 잘 맞는</h1>
             <h1 className="secondTitle">니지산지 라이버 찾아보기</h1>
             <form onSubmit={handleSubmit}>

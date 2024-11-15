@@ -199,6 +199,7 @@ button:hover {
 .resultnickname {
   position: absolute;
   top: 150px;
+  width: 280px;
   left: 50%;
   transform: translateX(-50%);
   font-family: 'applefont3';
