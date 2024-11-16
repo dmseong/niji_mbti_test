@@ -22,7 +22,7 @@ function ResultPage() {
             <h2 className="resulttitle">{name}님의 테스트 결과</h2>
             <h1 className="resultnickname">{resultData.title}</h1>
             <h1 className="resultname">{resultData.name}</h1>
-            <img className="resultimg" src={process.env.PUBLIC_URL + `/img/${resultData.img}`} alt={resultData.name}/>
+            <img className="resultimg" src={process.env.PUBLIC_URL + `/img/${resultData.img}` || `/img/${resultData.img}`} alt={resultData.name}/>
             <p className="resultsub">{resultData.subhead}</p>
             <div className="description">
                 <ul>
