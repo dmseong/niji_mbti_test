@@ -47,6 +47,7 @@ function ResultPage() {
                 <button className="restart" onClick={() => navigate('/')}>다시하기</button>
             </div>
             <div className="rectangle" style={{bottom: '0'}}></div>
+            
         </div>
     );
 }

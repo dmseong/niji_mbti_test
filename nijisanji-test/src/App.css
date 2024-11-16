@@ -3,18 +3,18 @@
 }
 
 @font-face {
-  font-family: 'applefont', -apple-system;
-  src: url('/public/fonts/AppleSDGothicNeoB.ttf') format('truetype');
+  font-family: 'applefont';
+  src: url('./fonts/AppleSDGothicNeoB.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'applefont2', -apple-system;
-  src: url('/public/fonts/AppleSDGothicNeoEB.ttf') format('truetype');
+  font-family: 'applefont2';
+  src: url('./fonts/AppleSDGothicNeoEB.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'applefont3', -apple-system;
-  src: url('/public/fonts/AppleSDGothicNeoM.ttf') format('truetype');
+  font-family: 'applefont3';
+  src: url('./fonts/AppleSDGothicNeoM.ttf') format('truetype');
 }
 
 /* 기본 전역 스타일 초기화 */
