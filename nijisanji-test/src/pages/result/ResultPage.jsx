@@ -22,7 +22,7 @@ function ResultPage() {
             <h2 className="resulttitle">{name}님의 테스트 결과</h2>
             <h1 className="resultnickname">{resultData.title}</h1>
             <h1 className="resultname">{resultData.name}</h1>
-            <img className="resultimg" src={`/img/${resultData.img}`} alt={resultData.name}/>
+            <img className="resultimg" src={process.env.PUBLIC_URL + `/img/${resultData.img}`} alt={resultData.name}/>
             <p className="resultsub">{resultData.subhead}</p>
             <div className="description">
                 <ul>
@@ -35,12 +35,12 @@ function ResultPage() {
                 <div className="card">
                     <p>나와 잘 맞는 라이버</p>
                     <h1>{goodpart.name}</h1>
-                    <img src={`/img/${goodpart.img}`} alt={goodpart.name}/>
+                    <img src={process.env.PUBLIC_URL + `/img/${goodpart.img}`} alt={goodpart.name}/>
                 </div>
                 <div className="card">
                     <p>나와 안 맞는 라이버</p>
                     <h1>{badpart.name}</h1>
-                    <img src={`/img/${badpart.img}`} alt={badpart.name}/>
+                    <img src={process.env.PUBLIC_URL + `/img/${badpart.img}`} alt={badpart.name}/>
                 </div>
             </div>
             <div className="restart-container" style={{ textAlign: 'center', marginTop: '20px' }}>

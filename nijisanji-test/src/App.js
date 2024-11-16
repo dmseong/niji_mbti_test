@@ -15,11 +15,12 @@ function App() {
   });
 
   return (
-    <BrowserRouter basename="/">
+    <BrowserRouter basename="/niji">
       <Routes>
         <Route path="/" element={<StartPage/>}/>
         <Route path="/test/:name" element={<TestPage />} />
         <Route path="/result/:name" element={<ResultPage />} />
+        <Route path="*" element={<div>404: Page Not Found</div>} />
       </Routes>
     </BrowserRouter>
   );
