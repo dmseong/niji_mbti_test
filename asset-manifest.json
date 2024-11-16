@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/niji/static/css/main.47ba3b09.css",
+    "main.css": "/niji/static/css/main.3d857bcb.css",
     "main.js": "/niji/static/js/main.0a55e134.js",
     "static/js/453.6c18b54a.chunk.js": "/niji/static/js/453.6c18b54a.chunk.js",
     "static/media/AppleSDGothicNeoB.ttf": "/niji/static/media/AppleSDGothicNeoB.4175a777557557f7d294.ttf",
     "static/media/AppleSDGothicNeoM.ttf": "/niji/static/media/AppleSDGothicNeoM.88c00162a2084f97069c.ttf",
     "static/media/AppleSDGothicNeoEB.ttf": "/niji/static/media/AppleSDGothicNeoEB.ea6bd07739f11db86707.ttf",
     "index.html": "/niji/index.html",
-    "main.47ba3b09.css.map": "/niji/static/css/main.47ba3b09.css.map",
+    "main.3d857bcb.css.map": "/niji/static/css/main.3d857bcb.css.map",
     "main.0a55e134.js.map": "/niji/static/js/main.0a55e134.js.map",
     "453.6c18b54a.chunk.js.map": "/niji/static/js/453.6c18b54a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.47ba3b09.css",
+    "static/css/main.3d857bcb.css",
     "static/js/main.0a55e134.js"
   ]
 }
