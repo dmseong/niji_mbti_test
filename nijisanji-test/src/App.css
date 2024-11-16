@@ -3,17 +3,17 @@
 }
 
 @font-face {
-  font-family: 'applefont';
+  font-family: 'applefont', -apple-system;
   src: url('/public/fonts/AppleSDGothicNeoB.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'applefont2';
+  font-family: 'applefont2', -apple-system;
   src: url('/public/fonts/AppleSDGothicNeoEB.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'applefont3';
+  font-family: 'applefont3', -apple-system;
   src: url('/public/fonts/AppleSDGothicNeoM.ttf') format('truetype');
 }
 
@@ -28,6 +28,7 @@ body {
   font: 'applefont3';
   margin: 0;
   background-color: #D7E8F1;
+  overflow-x : hidden;
 }
 
 .frame {
@@ -58,6 +59,7 @@ body {
 }
 
 input, button {
+  all: unset;
   width: 298px;
   height: 41px;
   border-radius: 40px;
@@ -65,13 +67,20 @@ input, button {
   border: none;
   outline: none;
   text-align: center;
-  font-family: 'applefont';
+  font-family: 'applefont', -apple-system;
   position: relative;
   z-index: 2;
 }
 
 button:hover {
   scale: 1.05;
+  transition: 0.5s;
+  color: white;
+  background-color: black;
+}
+
+button:active {
+  scale: 0.95;
   transition: 0.5s;
   color: white;
   background-color: black;
@@ -106,7 +115,7 @@ button:hover {
   top: 212px;
   text-align: center;
   font-size: 24px;
-  font-family: 'applefont3';
+  font-family: 'applefont3', -apple-system;
   z-index: 2;
 }
 
@@ -119,14 +128,14 @@ button:hover {
   text-align: center;
   font-size: 28px;
   margin-top: 4vh;
-  font-family: 'applefont2';
+  font-family: 'applefont2', -apple-system;
   z-index: 2;
 }
 
 .qnum {
   width: 40px;
   height: 29px;
-  font-family: 'applefont2';
+  font-family: 'applefont2', -apple-system;
   font-size: 24px;
   position: absolute;
   text-align: center;
@@ -138,7 +147,7 @@ button:hover {
 .question {
   width: 301px;
   height: 47px;
-  font-family: 'applefont3';
+  font-family: 'applefont3', -apple-system;
   font-size: 20px;
   position: absolute;
   top: 235px;
@@ -153,7 +162,7 @@ button:hover {
   font-size: 16px;
   margin: 6px 0;
   border-radius: 25px;
-  font-family: 'applefont2';
+  font-family: 'applefont2', -apple-system;
   line-height: 1.2;
 }
 
@@ -190,7 +199,7 @@ button:hover {
   top: 129px;
   left: 50%;
   transform: translateX(-50%);
-  font-family: 'applefont3';
+  font-family: 'applefont3', -apple-system;
   text-align: center;
   font-size: 16px;
   z-index: 2;
@@ -202,7 +211,7 @@ button:hover {
   width: 280px;
   left: 50%;
   transform: translateX(-50%);
-  font-family: 'applefont3';
+  font-family: 'applefont3', -apple-system;
   text-align: center;
   font-size: 20px;
   z-index: 2;
@@ -214,7 +223,7 @@ button:hover {
   width: 280px;
   left: 50%;
   transform: translateX(-50%);
-  font-family: 'applefont2';
+  font-family: 'applefont2', -apple-system;
   text-align: center;
   font-size: 32px;
   z-index: 2;
@@ -236,7 +245,7 @@ button:hover {
   top: 533px;
   left: 50%;
   transform: translateX(-50%);
-  font-family: 'applefont';
+  font-family: 'applefont', -apple-system;
   text-align: center;
   font-size: 17px;
   z-index: 2;
@@ -249,7 +258,7 @@ button:hover {
   left: 52%;
   transform: translateX(-50%);
   margin-bottom: 20px;
-  font-family: 'applefont';
+  font-family: 'applefont', -apple-system;
   font-size: 15px;
   z-index: 2;
 }
@@ -279,14 +288,14 @@ button:hover {
 }
 
 .card p {
-  font-family: 'applefont';
+  font-family: 'applefont', -apple-system;
   font-size: 10px;
   text-align: center;
   margin-top: 20px;
 }
 
 .card h1 {
-  font-family: 'applefont2';
+  font-family: 'applefont2', -apple-system;
   font-size: 15px;
   text-align: center;
 }
