@@ -1,0 +1,1 @@
+# niji_mbti_test
