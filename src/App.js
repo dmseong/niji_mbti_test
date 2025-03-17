@@ -15,7 +15,7 @@ function App() {
   });
 
   return (
-    <BrowserRouter basename="/niji_mbti_test">
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<StartPage/>}/>
         <Route path="/test/:name" element={<TestPage />} />
