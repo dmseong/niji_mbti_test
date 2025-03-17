@@ -17,9 +17,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "./",
+  "homepage": "https://dmseong.github.io/niji_mbti_test/",
   "eslintConfig": {
     "extends": [
       "react-app",
